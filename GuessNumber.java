@@ -1,27 +1,28 @@
+import java.io.*;
 import java.util.*;
 
 public class GuessNumber {
     public static void main(String args[]) {
         
-        System.out.println("Давай поиграем? Я загадала число от 0 до 100, а ты угадай его");
+        System.out.println("Р”Р°РІР°Р№ РїРѕРёРіСЂР°РµРј? РЇ Р·Р°РіР°РґР°Р»Р° С‡РёСЃР»Рѕ РѕС‚ 0 РґРѕ 100, Р° С‚С‹ СѓРіР°РґР°Р№ РµРіРѕ");
         //int a = 0;//
         int b = 100;
         int random = (int) (Math.random()*b);
-        System.out.println("Как ты думаешь, какое число я загадала? Давай, поделись со мной: " );
+        System.out.println("РљР°Рє С‚С‹ РґСѓРјР°РµС€СЊ, РєР°РєРѕРµ С‡РёСЃР»Рѕ СЏ Р·Р°РіР°РґР°Р»Р°? Р”Р°РІР°Р№, РїРѕРґРµР»РёСЃСЊ СЃРѕ РјРЅРѕР№: " );
 
         Scanner scan = new Scanner(System.in);
 
-       // System.out.println(scanner.nextInt()); Проверка
+       // System.out.println(scanner.nextInt()); РџСЂРѕРІРµСЂРєР°
         while(true) {
             int number =scan.nextInt();
             if (number > random) {
-                System.out.println("Я загадал число поменьше");
+                System.out.println("РЇ Р·Р°РіР°РґР°Р» С‡РёСЃР»Рѕ РїРѕРјРµРЅСЊС€Рµ");
 
             } else if (number < random) {
-                System.out.println("Я загадал число побольше");
+                System.out.println("РЇ Р·Р°РіР°РґР°Р» С‡РёСЃР»Рѕ РїРѕР±РѕР»СЊС€Рµ");
 
             } else {
-                System.out.println("Да,у тебя хорошая интуиция");
+                System.out.println("Р”Р°,Сѓ С‚РµР±СЏ С…РѕСЂРѕС€Р°СЏ РёРЅС‚СѓРёС†РёСЏ");
                 break;
 
             }
