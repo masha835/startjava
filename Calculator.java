@@ -1,25 +1,25 @@
 public class Calculator {
-public static void main(String args[]){
-	int a = 5;
-	int b = 6;
-	double c = 5.0;
-	double d = 6.0;
-	if(a<0 || b<0) {
-	System.out.println("Âû ââåëè íåäîïóñòèìîå çíà÷åíèå. Çàïðîñèòå îòâåò áåç îòðèöàòåëüíîãî çíàêà");
-} else {
-	
-	
-	System.out.println(a+b);
-	System.out.println(a-b);
-	System.out.println(c*d);
-	System.out.println(c/d);
-	//System.out.println();//
-        System.out.println(c/100);
-	System.out.println(Math.pow(c,d));
-	System.out.println(a%b);
+	public static void main(String args[]){
+		int a = 5;
+		int b = 6;
+		double c = 5.0;
+		double d = 6.0;
+		if(a<0 || b<0) {
+			System.out.println("Ð’Ñ‹ Ð²Ð²ÐµÐ»Ð¸ Ð½ÐµÐ´Ð¾Ð¿ÑƒÑÑ‚Ð¸Ð¼Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ. Ð—Ð°Ð¿Ñ€Ð¾ÑÐ¸Ñ‚Ðµ Ð¾Ñ‚Ð²ÐµÑ‚ Ð±ÐµÐ· Ð¾Ñ‚Ñ€Ð¸Ñ†Ð°Ñ‚ÐµÐ»ÑŒÐ½Ð¾Ð³Ð¾ Ð·Ð½Ð°ÐºÐ°");
+		} else {
+
+
+			System.out.println(a+b);
+			System.out.println(a-b);
+			System.out.println(c*d);
+			System.out.println(c/d);
+			//System.out.println();//
+			System.out.println(c/100);
+			System.out.println(Math.pow(c,d));
+			System.out.println(a%b);
+
+		}
+
 
 	}
- 
-
- }
 }
